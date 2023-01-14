@@ -84,6 +84,20 @@ header ul{
     margin-bottom: 100px;
     margin-top: 100px;
 }
+.section-header{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.item-container{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    text-align: center;
+}
 .flex-tripod{
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -116,9 +130,4 @@ header ul{
     font-weight: 700;
     font-size: 14px;
     color: #5E6366;
-}
-.item-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
 }
